@@ -1,0 +1,232 @@
+/* ---------------
+  Header stlyes 
+------------------*/
+.nav {
+    max-width: 1440px;
+    min-height: 100px;
+    background-color: rgb(80, 35, 245);
+    margin: auto;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 260px;
+    padding-top: 20px;
+}
+
+.nav img {
+    width: 45px;
+
+}
+
+.span {
+    color: white;
+    font-size: 34px;
+}
+
+/* -----------------------------
+      header-two-styles 
+---------------------------*/
+.profile a {
+    color: white;
+    font-size: 16px;
+    margin-top: 30px;
+    position: relative;
+    top: -30px;
+    text-decoration: none;
+}
+
+.home {
+    margin-left: 877px;
+}
+
+.about {
+    margin-left: 30px;
+}
+
+.works {
+    margin-left: 20px;
+}
+
+.picture img {
+    width: 46px;
+    position: absolute;
+    top: 30px;
+    left: 1360px;
+    top: 40px;
+}
+
+
+/* -----------------------------
+        top players style
+     -------------------- */
+main {
+    max-width: 1440px;
+    min-height: 1220px;
+    background-color: rgb(222, 234, 255);
+    margin: auto;
+}
+
+.container-1 {}
+
+.top-players {
+    margin: auto;
+    padding: 30px;
+    width: 870px;
+    height: 679px;
+    background-color: whitesmoke;
+}
+
+h2 {
+    color: rgb(84, 84, 247);
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+
+
+}
+
+h3 {
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+
+}
+
+#problem-1 {
+    margin-right: 30px;
+}
+
+#problem-2 {
+    margin-right: 38px;
+}
+
+#problem-3 {
+    margin-left: 20px;
+}
+
+.player {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+
+    border: solid rgb(158, 157, 157) 1.5px;
+    margin-top: 52px;
+}
+
+/* -------------------------
+   Top blog styles 
+ ---------------------*/
+.top-blogers h2 {
+    margin-top: 30px;
+}
+
+.blogers {
+    width: 782px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.blog img {
+    width: 167px;
+    height: 107px;
+}
+
+.blog {
+    display: flex;
+    padding: 30px;
+}
+
+.author {
+    margin-left: 20px;
+    color: rgb(91, 91, 235);
+}
+
+.author a {
+    text-decoration: none;
+}
+
+/*   -------------------------- 
+    Lates Course styles 
+-------------------------*/
+.container-2 {
+    width: 930px;
+    height: 452px;
+    margin: auto;
+    background-color: whitesmoke;
+
+}
+
+.mather-div {
+    display: flex;
+}
+
+.container-2 h2 {
+    padding-top: 23px;
+}
+
+.course {
+    padding: 30px;
+    border: 1px solid rgb(240, 238, 238);
+    box-shadow: 10px 10px 10px rgb(192, 190, 190);
+    border-radius: 15px;
+    margin-right: 25px;
+}
+
+#course-img {
+    width: 224px;
+    height: 104px;
+}
+
+.course h4 {
+    width: 193px;
+    font-size: 20px;
+}
+
+.course p {
+    font-size: 14.69px;
+    color: rgb(247, 88, 88);
+}
+
+.fa-star.worked {
+    color: rgb(248, 198, 34);
+}
+
+.fa-star.not-worked {
+    color: #979797;
+}
+
+.rating {
+    display: flex;
+    font-size: 12px;
+}
+
+span {
+    margin-left: 24px;
+}
+
+.time {
+    margin-left: 38px;
+    color: rgb(238, 87, 87);
+    border: solid 1px rgb(238, 87, 87);
+    background-color: rgb(250, 194, 194);
+    padding: 4px;
+    border-radius: 10px;
+    margin-top: -4px;
+    font-weight: 500;
+    font-size: 11px;
+}
